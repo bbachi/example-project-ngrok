@@ -1,0 +1,25 @@
+{
+  "name": "example-project-ngrok",
+  "version": "1.0.0",
+  "description": "Sample project to demo how the ngrok works",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ngrok": "ngrok http 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbachi/example-project-ngrok.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbachi/example-project-ngrok/issues"
+  },
+  "homepage": "https://github.com/bbachi/example-project-ngrok#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
